@@ -16,7 +16,8 @@ kbfkk
 /*
 number => 2 to the power 53
 bigint =>
-tring => " "
-null =>
+string => " "
+null => standalone value
 undefined => not assigned yet
+
 */ 
