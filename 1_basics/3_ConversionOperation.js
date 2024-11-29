@@ -34,5 +34,30 @@ let isLoggedIninBoolean = Boolean(isLoggedIn)
 let Number = 70
 let numberToString = String(Number)
 
-console.log(numberToString)
-console.log(typeof numberToString)
+// console.log(numberToString)
+// console.log(typeof numberToString)
+
+// ***************** OPERATIONS *****************
+
+let posValue = 4;
+let negValue = -posValue;
+// console.log(negValue)
+
+// console.log(2+2)
+// console.log(2-2)
+// console.log(2*2)
+// console.log(2/2)
+// console.log(2**3)
+// console.log(2%3)
+
+// console.log("1" + 2);       //JS can convert number to string itself
+// console.log(1 + "2");
+// console.log("1" + 2 + 2);   //if string value is on starting so rest will be convert to string.
+// console.log(1 + 2 + "2");   //if string value is on last so rest will not be convert to string, and it'll judge as it's own type.
+
+// console.log(3 + ((4 * 5) % 3))
+
+let gameCounter = 100;
+++gameCounter
+console.log(gameCounter);
+
