@@ -54,3 +54,29 @@ const myFunc = function() {
     does not implement [[Call]])	            Implementation-defined except may not be "undefined", "boolean", "number", or "string".
 */
 
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive), Heap (non-Primitive)
+// all primitive values will store in Stack and non-Primitive will store in Heap
+
+let myHomename = "Mayank"
+
+let anotherName = myHomename
+anotherName = "Kaae"
+
+// console.log(myHomename);
+// console.log(anotherName);
+
+let userOne = {
+    email: "userOne@yahoomail.com",
+    upi: "userOne@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "mayank@gamil.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
