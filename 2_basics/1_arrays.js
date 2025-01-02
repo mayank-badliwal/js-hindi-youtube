@@ -16,4 +16,14 @@ const myArr = [1, 2, 3, 4, 5]
 // console.log(newArr)
 
 
-console.log(myArr)
+// console.log(myArr)
+
+//Slice and Splice
+
+console.log("A", myArr)
+
+const myArr2 = myArr.slice(0, 3)
+console.log("B ", myArr2)
+
+const myArr3 = myArr.splice(0, 3)
+console.log("C ", myArr3)
